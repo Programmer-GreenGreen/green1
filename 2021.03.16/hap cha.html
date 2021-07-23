@@ -1,0 +1,24 @@
+<html>
+	<body>
+	<script>
+		var hap, cha, num1, num2;
+		num1 = parseInt(prompt("첫 번째 숫자를 입력하세요"));
+		num2 = parseInt(prompt("두 번째 숫자를 입력하세요"));
+		hap = num1 + num2;
+		cha = num1 - num2;
+		document.write(" 합 : " + hap + " 차 : "+ cha +"<br>");
+		if (hap > cha)		
+		{
+			document.write("합이 차보다 큽니다");
+		}
+		else if (hap < cha)
+		{
+			document.write("차가 합보다 큽니다");
+		}
+		else
+		{
+			document.write("차와 합이 같습니다");
+		}
+	</script>
+	</body>
+</html>

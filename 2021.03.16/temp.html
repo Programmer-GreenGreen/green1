@@ -1,0 +1,22 @@
+<html>
+	<body>
+	<script>
+		var num1, num2, temp;
+		num1 = parseInt(prompt("첫 번째 수를 입력하세요"));
+		num2 = parseInt(prompt("두 번째 수를 입력하세요"));
+		if (num1 < num2)
+		{
+			temp = num1;
+			num1 = num2;
+			num2 = temp;
+			document.write("첫 번째 값 : " + num1 + "<br>");
+			document.write("두 번째 값 : " + num2 + "<br>");
+		}
+		else
+		{
+			document.write("큰 수 : " + num1 + "<br>");
+			document.write("작은 수 : " + num2 + "<br>");
+		}
+	</script>
+	</body>
+</html>
